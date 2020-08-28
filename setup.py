@@ -86,6 +86,7 @@ setup(
         'Programming Language :: Python :: 3.6',
 
     ],
+    data_files = [("", ["LICENSE.txt"])]
     #keywords='',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     package_data={'':['*.cpp', '*.h']},
